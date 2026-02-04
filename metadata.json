@@ -1,0 +1,7 @@
+{
+  "name": "Be My Valentine - Viral Experience",
+  "description": "An interactive, playful Valentine's Day experience featuring a cheeky Yes/No button game, personalized compliments, and social media sharing features.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
