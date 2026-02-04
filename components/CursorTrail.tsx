@@ -12,7 +12,7 @@ interface Particle {
 
 const CursorTrail: React.FC = () => {
   const [particles, setParticles] = useState<Particle[]>([]);
-  const requestRef = useRef<number>();
+  const requestRef = useRef<number | null>(null);
   const lastPos = useRef({ x: 0, y: 0 });
 
   useEffect(() => {
@@ -47,7 +47,9 @@ const CursorTrail: React.FC = () => {
 
     return () => {
       window.removeEventListener('mousemove', handleMouseMove);
-      if (requestRef.current) cancelAnimationFrame(requestRef.current);
+      if (requestRef.current !== null) {
+        cancelAnimationFrame(requestRef.current);
+      }
     };
   }, []);
 
