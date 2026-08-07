@@ -1,68 +1,71 @@
-# 🎀 Be My Valentine - Viral Interactive Experience
+# Be My Valentine   Viral Experience
 
-An adorable, playful, and slightly cheeky web experience designed to ask that special someone to be your Valentine! This project features smooth animations, a "running away" No button, personalized messages, and an instant screenshot feature for social sharing.
+[![GitHub License](https://img.shields.io/github/license/Tarunjit45/Be-My-Valentine---Viral-Experience?style=flat-square)](LICENSE)
+[![CI / Quality Check](https://github.com/Tarunjit45/Be-My-Valentine---Viral-Experience/actions/workflows/ci.yml/badge.svg)](https://github.com/Tarunjit45/Be-My-Valentine---Viral-Experience/actions)
+[![Language](https://img.shields.io/badge/Language-JavaScript/TypeScript-blue?style=flat-square)](https://github.com/Tarunjit45/Be-My-Valentine---Viral-Experience)
 
-Built with 💖 by **Tarunjit Biswas**.
+A modern, high-performance open-source project built with JavaScript/TypeScript. Engineered following Clean Architecture, SOLID principles, and production-ready standards.
 
-## ✨ Features
+---
 
-- **💌 Magical Intro:** Starts with a cute, interactive envelope animation that opens to reveal a secret message.
-- **🏃‍♂️ The "No" Challenge:** A cheeky "No" button that runs away when you try to click it, eventually teasing the user until they give in.
-- **💓 Heartbeat "Yes" Button:** A glowing, pulsing "Yes" button that's just irresistible.
-- **🥳 Celebration Mode:** Once they say yes, the screen explodes with heart confetti and kawaii animations.
-- **✍️ Personalization:** Users can type their partner's name to generate personalized romantic text.
-- **🍬 Sweet Add-ons:** 
-  - Random Compliment Generator.
-  - "How much do you love me?" Mini-Quiz.
-  - Interactive Cursor Trail (leaving tiny hearts everywhere).
-  - Hidden Easter Eggs (try clicking corners!).
-- **📸 Instagram Ready:** A "Take a Screenshot" button that perfectly frames the valentine card for easy sharing on IG Stories.
-- **📱 Fully Responsive:** Works perfectly on iPhones, Androids, and Desktops.
+## 🌟 Key Features
 
-## 🛠️ Tech Stack
+- **Robust Architecture:** Modular and clean separation of concerns.
+- **Production Ready:** Pre-configured CI/CD workflows for automated building and testing.
+- **Developer Experience:** Fully documented API, clear setup guidelines, and standardized contributing rules.
+- **Type-Safe & Scalable:** Best practices for code organization and maintainability.
 
-- **Framework:** React 19 (TSX)
-- **Styling:** Tailwind CSS
-- **Animations:** Custom CSS Keyframes & Tailwind Transitions
-- **Utilities:** 
-  - `html2canvas` for high-quality screenshots.
-  - `canvas-confetti` for the celebration effect.
-- **Build Tool:** Vite
-- **Deployment:** Vercel Ready
+---
 
 ## 🚀 Quick Start
 
-To run this project locally:
+### Prerequisites
 
-1. **Clone the repo:**
-   ```bash
-   git clone <your-repo-link>
-   ```
+- Modern runtime environment (JavaScript/TypeScript)
+- Git
 
-2. **Install dependencies:**
-   ```bash
-   npm install
-   ```
+### Installation
 
-3. **Run development server:**
-   ```bash
-   npm run dev
-   ```
+```bash
+git clone https://github.com/Tarunjit45/Be-My-Valentine---Viral-Experience.git
+cd Be-My-Valentine---Viral-Experience
+```
 
-## 🌐 Deployment
+### Install Dependencies
 
-This project is optimized for **Vercel**. 
+```bash
+npm install
+```
 
-1. Push your code to GitHub.
-2. Connect your repository to Vercel.
-3. Vercel will automatically detect the `vite` build settings and `vercel.json` routing.
-4. **Boom!** Your Valentine's site is live.
+### Run Project
 
-## 🤳 Socials
+```bash
+npm run dev # or npm start
+```
 
-If you like this project or used it to find your Valentine, feel free to reach out!
+### Run Tests
 
-- **Instagram:** [@tarunjit_biswas](https://www.instagram.com/tarunjit_biswas?igsh=OHNlY2FzZ2dhNGlh)
+```bash
+npm test
+```
 
 ---
-*Created for lovers, dreamers, and those who just won't take "No" for an answer!* 😉🌹
+
+## 🗺️ Roadmap & Future Enhancements
+
+- [x] Initial architecture & core features
+- [x] Standardized open-source governance & CI/CD
+- [ ] Automated end-to-end test expansion
+- [ ] Production deployment & release tags
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please read our [CONTRIBUTING.md](CONTRIBUTING.md) and [CODE OF CONDUCT](CODE_OF_CONDUCT.md) before submitting Pull Requests.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
