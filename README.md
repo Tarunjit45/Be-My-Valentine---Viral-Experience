@@ -1,72 +1,59 @@
-# 🚀 Be-My-Valentine---Viral-Experience
+# 💘 Be My Valentine — Viral Interactive Valentine's Day Experience
 
-![Language](https://img.shields.io/badge/Language-TypeScript-blue?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
-![Status](https://img.shields.io/badge/Production-Active-success?style=for-the-badge)
+[![React](https://img.shields.io/badge/React-18+-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4+-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Vite](https://img.shields.io/badge/Bundler-Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
-## 📌 Overview
+**Be My Valentine** is a playful, viral Valentine's Day web application crafted with **React 18**, **TypeScript**, and **Tailwind CSS**. Built to bring smiles, it features the viral **evasive "No" button** (which shrinks and dodges cursor hovers while the "Yes" button grows exponentially), personalized romantic compliment generators, and celebratory confetti effects.
 
-VALENTINE SPECIAL 
+---
 
-## ✨ Key Features & Architecture
+## ✨ Features
 
-- **High-Performance Codebase:** Built using `TypeScript` and modern engineering principles.
-- **Modular & Scalable Design:** Structured directory tree for seamless development and deployment.
-- **Modern Responsive Styling:** Custom UI design system engineered for mobile & desktop clarity.
+* 🏃‍♂️ **The Evasive "No" Button:** Physics-based dodging logic making it hilarious and virtually impossible to decline!
+* 📈 **Exponential "Yes" Button:** Each time "No" is hovered or clicked, the "Yes" button grows bigger and more persuasive.
+* 🎊 **Celebration Screen:** Triggers heart confetti, romantic music animations, and customizable proposal messages.
+* 💌 **Personalized Compliment Cards:** Curated romantic affirmations and shareable social cards.
 
-## 🛠️ Tech Stack & Dependencies
+---
 
-- **Core Language:** `TypeScript`
-- **Libraries & Tools:** React 18, Vite, Tailwind CSS, TypeScript
-- **Deployment Infrastructure:** Vercel Edge / Cloud Services
-
-## 📁 Architecture & File Layout
+## 📁 Repository Structure
 
 ```text
 Be-My-Valentine---Viral-Experience/
-├── .github
-├── .github/ISSUE_TEMPLATE
-├── .github/ISSUE_TEMPLATE/bug_report.md
-├── .github/ISSUE_TEMPLATE/feature_request.md
-├── .github/PULL_REQUEST_TEMPLATE.md
-├── .github/workflows
-├── .github/workflows/ci.yml
-├── .gitignore
-├── App.tsx
-├── CODE_OF_CONDUCT.md
-├── CONTRIBUTING.md
-├── LICENSE
-├── README.md
-├── components
-├── components/Background.tsx
-└── ... [additional codebase files]
+├── App.tsx             # Interactive proposal container & button growth state
+├── index.tsx           # React bootstrap entry point
+├── index.html          # HTML5 layout with romantic fonts & emoji favicons
+├── components/         # ConfettiBurst, LoveCard, EvasiveButton
+├── constants.tsx       # Compliment templates, sound effects & messages
+├── metadata.json       # Project manifest
+├── package.json        # Dependencies & scripts
+├── LICENSE             # MIT License
+└── README.md
 ```
 
-## 🚀 Quickstart & Installation
+---
 
-### Prerequisites
-- Node.js (v18.0.0 or higher)
-- npm or yarn package manager
+## 🚀 Quick Start
 
-### Setup Instructions
+### 1. Installation
+```bash
+git clone https://github.com/Tarunjit45/Be-My-Valentine---Viral-Experience.git
+cd Be-My-Valentine---Viral-Experience
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/Tarunjit45/Be-My-Valentine---Viral-Experience.git
-   cd Be-My-Valentine---Viral-Experience
-   ```
+npm install
+```
 
-2. **Install dependencies:**
-   ```bash
-   npm install
-   ```
+### 2. Run Development Server
+```bash
+npm run dev
+```
 
-3. **Launch development server:**
-   ```bash
-   npm run dev
-   ```
+Open [http://localhost:5173](http://localhost:5173) in your browser.
 
-## 📜 Author & License
+---
 
-Architected & Developed by **[Tarunjit Biswas](https://github.com/Tarunjit45)**.  
-Distributed under the **MIT License**.
+## 📄 License
+This project is licensed under the [MIT License](LICENSE).
